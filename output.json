@@ -1,60 +1,46 @@
 {
   "software": [
-    [
-      "name",
-      "version",
-      "url"
-    ],
-    [
-      "xlspro",
-      2.1,
-      "https://github.com/devteam/xlspro"
-    ],
-    [
-      "wincheck",
-      5.2,
-      "https://github.com/devteam/wincheck"
-    ],
-    [
-      "yaml-gen",
-      "8.10.1",
-      "https://github.com/devteam/yaml-gen"
-    ]
+    {
+      "name": "xlspro",
+      "version": 2.1,
+      "url": "https://github.com/devteam/xlspro"
+    },
+    {
+      "name": "wincheck",
+      "version": 5.2,
+      "url": "https://github.com/devteam/wincheck"
+    },
+    {
+      "name": "yaml-gen",
+      "version": "8.10.1",
+      "url": "https://github.com/devteam/yaml-gen"
+    }
   ],
   "services": [
-    [
-      "name",
-      "endpoint"
-    ],
-    [
-      "service1",
-      "https://service1.company.com/"
-    ],
-    [
-      "service2",
-      "https://service2.company.com/"
-    ]
+    {
+      "name": "service1",
+      "endpoint": "https://service1.company.com/"
+    },
+    {
+      "name": "service2",
+      "endpoint": "https://service2.company.com/"
+    }
   ],
   "repos": [
-    [
-      "name",
-      "author",
-      "url"
-    ],
-    [
-      "repo1",
-      "Bob Smith",
-      "https://gitlab.com/bsmith/repo1"
-    ],
-    [
-      "repo2",
-      "Steve James",
-      "https://gitlab.com/sjames/repo2"
-    ],
-    [
-      "repo3",
-      "Carla Jones",
-      "https://gitlab.com/cjones/repo3"
-    ]
+    {
+      "name": "repo1",
+      "author": "Bob Smith",
+      "url": "https://gitlab.com/bsmith/repo1"
+    },
+    {
+      "name": "repo2",
+      "author": "Steve James",
+      "url": "https://gitlab.com/sjames/repo2"
+    },
+    {
+      "name": "repo3",
+      "author": "Carla Jones",
+      "url": "https://gitlab.com/cjones/repo3"
+    }
   ]
 }
